@@ -18,7 +18,7 @@ public class AAA {
 			int pro=1;
 			
 			for(int i=0;i<arr.length;i++) {
-				if(1==res) {
+				if(i==res) {
 					continue;
 				}else {
 					pro*=arr[i];
