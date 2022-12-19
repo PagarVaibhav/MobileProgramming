@@ -9,7 +9,7 @@ public class ReverseString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter A string");
 		
-		String str=sc.next();
+		String str=sc.nextLine();
 		String rev="";
 		//int len=str.length();
 		

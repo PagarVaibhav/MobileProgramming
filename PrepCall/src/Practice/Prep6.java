@@ -20,7 +20,7 @@ public class Prep6 {
 			for(int j=0; j<a.length;j++) {
 				
 				if(a[i]==a[j]) {
-					str=(a[i][j]*a[i][j])+ " ," +str;
+					str=(a[i][j]*a[i][j])+ " " +str;
 				}
 			}
 		}

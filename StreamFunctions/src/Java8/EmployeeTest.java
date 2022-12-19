@@ -242,4 +242,5 @@ public class EmployeeTest {
 		System.out.println("Average Salary = "+employeeSalaryStatistics.getAverage());
 		System.out.println("Total Salary = "+employeeSalaryStatistics.getSum());
 	}
+	
 }
