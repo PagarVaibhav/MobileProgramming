@@ -19,7 +19,7 @@ public class RepeatationCheck {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {2,1,3,4,6,5,4,7,5,6,8,2,3,6,2,6,4,4,7,3,4,5,6};
+		int arr[]= {2,1,3,4,6,5,4,7,5,6,8,2,3,6,2,6,4,4,7,3,4,5,6,1};
 		Arrays.sort(arr);
 		
 		for(int i=0;i<arr.length;i++) {

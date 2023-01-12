@@ -13,7 +13,7 @@ public class Prep23 {
 			String str="vaibhav";
 			
 			IntStream stream = str.chars();
-			
+		
 		 Map<Character,Long> collect = stream.mapToObj(c->(char)c).collect(Collectors.groupingBy(c->c,Collectors.counting()));
 			
 		 collect.forEach((x,y)->{
